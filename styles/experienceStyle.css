@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+/*Sans-Serif font for headlines*/
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald-VariableFont_wght.ttf)
+    format('truetype');
+ }
+
+/*Serif font for body text*/
+@font-face {
+    font-family: Tinos;
+    src: url(../fonts/Tinos-Regular.ttf)
+    format('truetype');
+ }
+
+
+/* Body Styles */
+
+p#introText {
+    width: 85%;
+    text-align: center;
+    font-family: Oswald, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: 100;
+    line-height: 110%;
+    margin: 1em auto 1em auto;
+}
+
+div.textBox {
+    background-color: #E0DDCF;
+    border-radius: 10px;
+    margin-top: .4em;
+    box-shadow: #907d92 4px 4px 0px;
+}
+
+
+/* Column Styles */
+
+div[class^="expSkillCol"] {
+    float: left;
+    padding: 1.4%;
+    text-align: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+ }
+
+
+ div.expSkillCol-1-2 {width: 50%;}
+ div.expSkillCol-1-3 {width: 33.33%;}
+
+
+ /* Image Styles */
+ img {
+    width: 50%;
+    object-fit: contain;
+ }
+
+ /* Text Styles */
+
+ h1 {
+    font-size: larger;
+    margin-top: .5em;
+    font-family: Oswald, Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ p.mainText {
+    font-family: Tinos, Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: .4em;
+    color: black;
+ }
+
+ p.mainText em {
+    font-size: small;
+    font-weight: bold;
+ }
+
+ div#resumeBlock {
+    clear: both;
+    color: beige;
+    font-family: Oswald, Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto 0 auto;
+ }
+
+ /* Link Styles */
+
+div#resumeBlock a:link {
+    color: #e0cd21;
+    text-decoration: none;
+}
+
+div#resumeBlock a:visited {
+    color: #e0cd21;
+    text-decoration: none;
+}
+
+div#resumeBlock a:hover {
+    color: #534B52;
+    text-decoration: none;
+}
+
+div#resumeBlock a:active {
+    color: #e0cd21;
+    text-decoration: none;
+}

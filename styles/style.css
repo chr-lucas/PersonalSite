@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/*Sans-Serif font for headlines*/
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald-VariableFont_wght.ttf)
+    format('truetype');
+ }
+
+/*Serif font for body text*/
+@font-face {
+    font-family: Bitter;
+    src: url(../fonts/Bitter-VariableFont_wght.ttf)
+    format('truetype');
+ }
+
+ /*
+ Color Scemes:
+ Monochrome Grey
+ #302E30 HTML Color
+ #2D232E Body Color
+ #E0DDCF Accents/Borders
+ #534B52 Header/Footer
+ #F1F0EA Dividers/Shadows
+
+ */
+
+/* Main Styles */
+
+html {
+    background-color: #474448;
+}
+
+body {
+    color: beige;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2D232E;
+    box-shadow:
+        #1b1b1b 4px 0px 10px,
+        #1b1b1b -4px 0px 10px;
+}
+
+header, footer {
+    background-color: #534B52;
+    text-align: center;
+}
+
+/* Header Styles */
+
+header img {
+    height: 50px;
+    margin: 8px 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #E0DDCF;
+    width: 100%;
+    height: 23px;
+    font-family: Oswald, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+
+div.navButton a {
+    color: black;
+    font-size: large;
+    padding: 0 .2em;
+    margin: 0 .1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: light;
+}
+
+
+/* Footer Styles */
+
+footer {
+    clear: both;
+}
+
+footer div {
+    text-align: center;
+    font-size: large;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    margin: .6em 0 -.2em 0;
+}
+
+footer p#copyright {
+    height: fit-content;
+    text-align: center;
+    font-size: small;
+}
+
+/* Hyperlink Styles */
+
+a.footerLink:link {
+    text-decoration: none;
+    color: beige;
+}
+
+a.footerLink:visited {
+    text-decoration: none;
+    color: #e0cd21;
+}
+
+a.footerLink:hover {
+    text-decoration: none;
+    color: #6f73f8;
+}
+
+a.footerLink:active {
+    text-decoration: none;
+    color: #e0cd21;
+}
+
+div.navButton a:link {
+    color: black;
+}
+
+div.navButton a:visited {
+    color: black;
+}
+
+div.navButton a:hover {
+    background-color: #534B52;
+    color: beige;
+    font-weight: lighter;
+}
+
+div.navButton a:active {
+    color: black;
+}

@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/*Sans-Serif font for headlines*/
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald-VariableFont_wght.ttf)
+    format('truetype');
+ }
+
+/*Serif font for body text*/
+@font-face {
+    font-family: Tinos;
+    src: url(../fonts/Tinos-Regular.ttf)
+    format('truetype');
+ }
+
+
+/* Body Styles */
+
+div#introText {
+    width: 80%;
+    margin: .4em auto 0 auto;
+}
+
+div#schoolExamples {
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.schoolColumn {
+    display: block;
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #E0DDCF;
+    color: black;
+    border-radius: 24px;
+}
+
+/* Text Styles */
+
+div#introText {
+    font-family: Tinos, Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    line-height: 110%;
+}
+
+h2, h5 {
+    font-family: Oswald, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2, h5 {
+    text-align: left;
+    margin-left: 10%;
+}
+
+h2 {
+    font-size: x-large;
+    text-decoration: underline;
+    line-height: 105%;
+}
+
+h5 {
+    font-size: larger;
+    line-height: 105%;
+    padding-top: .1em;
+}
+
+
+
+
+/* Image Styles */
+
+img {
+    width: 80%;
+    object-fit: contain;
+    border: black solid 2px;
+}
+
+
+/* List Styles */
+
+ul.education {
+    padding-top: .2em;
+}
+
+ul.education li {
+    font-family: Tinos, Georgia, 'Times New Roman', Times, serif;
+    line-height: 105%;
+    text-align: left;
+    margin-left: 25%;
+}
+
+
+/* Divider Styles */
+
+hr {
+    margin: .6em 0 1em 0;
+    border-color: #E0DDCF;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 2px;
+}

@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/*Sans-Serif font for headlines*/
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald-VariableFont_wght.ttf)
+    format('truetype');
+ }
+
+/*Serif font for body text*/
+@font-face {
+    font-family: Bitter;
+    src: url(../fonts/Bitter-VariableFont_wght.ttf)
+    format('truetype');
+ }
+
+
+/* Body Styles */
+
+/* Container for each horizontal group */
+div.groupWrapper {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Specific offset for first group */
+div#topGroup.groupWrapper {
+    margin-top: 1em;
+}
+
+/* Image container */
+div.aboutImg {
+    display: block;
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+/* Image properties */
+div.aboutImg img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Text container */
+div.aboutText {
+    display: table;
+    float: left;
+    width: 70%;
+    text-align: left;
+    font-family: Bitter, Georgia, 'Times New Roman', Times, serif;
+    line-height: normal;
+}
+
+/* Text properties */
+div.aboutText p {
+    display: table-cell;
+    width: 95%;
+    font-size: larger;
+    vertical-align: middle;
+}
+
+/* Blank "spacer" div */
+div.aboutSpacer {
+    display: block;
+    float: left;
+    width: 5%;
+}
+
+/* Image copyright text */
+small {
+    display: block;
+    margin-left: 5%;
+}
+
+/* Divider Styles */
+
+hr.aboutDivider {
+    margin: .6em 0 1em 0;
+    border-color: #E0DDCF;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 2px;
+}

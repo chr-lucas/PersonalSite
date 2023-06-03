@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Chris | Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Each page has a shared reset and general style, along with a specific
+        Stylesheet unique to that page's styling.-->
+    <link href="styles/reset.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/homeStyles.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <!--Header and top nav bar are shared across all pages for uniformity-->
+    <header>
+        <img src="images/header_Name.png" alt="Chris Lucas">
+        <nav>
+            <ul>
+                <li>
+                    <div class="navButton">
+                    <a href="index.html"
+                        alt="Link to Home Page">
+                        About Chris</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="navButton">
+                    <a href="experience.html"
+                        alt="Link to Experience Page">
+                        Experience</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="navButton">
+                    <a href="education.html"
+                        alt="Link to Education Page">
+                        Education</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="navButton">
+                    <a href="https://clucas1-5assignmentssite.netlify.app/learningactivites"
+                        alt="Link to Web Portfolio" target="_blank">
+                        Portfolio</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="navButton">
+                    <a href="hobbies.html"
+                        alt="Link to Hobbies Page">
+                        Hobbies</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="navButton">
+                    <a href="contact.html"
+                        alt="Contact Me">
+                        Contact</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+        <!-- About page divided into 3 primary sections
+        (Personal, Career, Education) with a top to bottom stacked
+        presentation-->
+
+        <!-- Blank divs used as spacers for top section, could have also
+        assigned a unique margin to the topmost group. Blank div used again
+        to maintain desired layout of each 3 part horizontal grouping.-->
+
+        <!-- I use a table/table cell display assignment to force a vertical
+            alignment on the p tags used in this article.-->
+
+    <article>
+        <div id="topSpacer"></div>
+        <div class="groupWrapper" id="topGroup">
+            <div class="aboutImg">
+                <img src="images/about_Selfie.jpg" alt="A picture of Chris">
+            </div>
+            <div class="aboutSpacer"></div>
+            <div class="aboutText">
+                <p>I'm Chris - a lifelong lover of conversation, curiosity, and
+                    computers. Originally from the Greater Lakes region, I left
+                    my previous life in sales to move west and undertake fresh
+                    challenges. Now living with my wife in Ogden, UT, I'm
+                    enjoying a new chapter with beautiful mountain views.</p>
+            </div>
+        </div>
+        <hr class="aboutDivider">
+        <div class="groupWrapper">
+            <div class="aboutText">
+                <p>For nearly twenty years, I was a top performer at
+                    specialty retailer GameStop. While regularly driving sales
+                    and training future leaders, my biggest accomplishment is
+                    delivering service ranked at the 99th percentile among all
+                    GameStop U.S. retail locations nationwide.</p>
+            </div>
+            <div class="aboutSpacer"></div>
+            <div class="aboutImg">
+                <img src="images/about_Sales.jpg" alt="Satisfied Customers">
+            </div>
+        </div>
+        <hr class="aboutDivider">
+        <div class="groupWrapper">
+            <div class="aboutImg">
+                <img src="images/about_School.jpg" alt="Weber State University">
+            </div>
+            <div class="aboutSpacer"></div>
+            <div class="aboutText">
+                <p>Having moved on to new challenges, I'm currently enrolled in
+                    the Weber State University School of Computing. Combining my
+                    lifelong interest in computers and a fondness for problem
+                    solving, I am working toward a Fall '24 graduation with my
+                    Bachelor of Science in Computer Science.</p>
+            </div>
+        </div>
+            <small>&copy; 2023 - Weber State University</small>
+    </article>
+
+
+    <!-- Footer repeates top nav menu and provides brief copyright. -->
+    <footer>
+        <div>
+        <a href="experience.html"
+            alt="Link to Home Page"
+            class="footerLink">About Chris</a> &nbsp; &nbsp;
+        <a href="experience.html"
+            alt="Link to Experience Page"
+            class="footerLink">Experience</a> &nbsp; &nbsp;
+        <a href="education.html"
+            alt="Link to Education Page"
+            class="footerLink">Education</a> &nbsp; &nbsp;
+        <a href="https://clucas1-5assignmentssite.netlify.app/learningactivites"
+            alt="Link to Experience Page"
+            class="footerLink">Portfolio</a> &nbsp; &nbsp;
+        <a href="hobbies.html"
+            alt="Link to Hobbies Page"
+            class="footerLink">Hobbies</a> &nbsp; &nbsp;
+        <a href="contact.html"
+            alt="Contact Me"
+            class="footerLink">Contact</a> &nbsp; &nbsp;
+        </div>
+        <p id="copyright">Chris Lucas - CS2350 - &copy;2023</p>
+
+    </footer>
+
+</body>

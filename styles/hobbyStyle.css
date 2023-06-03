@@ -64,6 +64,7 @@ div#podcastText p {
 div#podcastText p {
     display: table-cell;
     vertical-align: middle;
+    text-align: left;
 }
 
 /* Image Styles */

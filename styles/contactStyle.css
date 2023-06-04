@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/*Sans-Serif font for headlines*/
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald-VariableFont_wght.ttf)
+    format('truetype');
+ }
+
+/*Serif font for body text*/
+@font-face {
+    font-family: Tinos;
+    src: url(../fonts/Tinos-Regular.ttf)
+    format('truetype');
+ }
+
+
+/* Body and Spacing Styles */
+
+div.formContainer {
+    display: block;
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Text Styles */
+
+label.referralLabel {
+    font-size: small;
+}
+
+/* Form Styles */
+
+fieldset {
+    width: 80%;
+    background-color: #E0DDCF;
+    font-family: Tinos, Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+    margin: 2em auto;
+}
+
+legend {
+    background-color: #6f73f8;
+    color: beige;
+    font-family: Oswald, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    padding: .3em;
+    box-shadow: black 1px 1px 1px;
+}
+
+textarea {
+    width: 100%;
+    height: 10em;
+}
+
+input {
+    margin-top: .4em;
+}
+
+/* List Styles */
+
+
+
+/* Divider Styles */
+

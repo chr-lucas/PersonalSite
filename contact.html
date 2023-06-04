@@ -10,6 +10,7 @@
             Stylesheet unique to that page's styling.-->
     <link href="styles/reset.css" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/contactStyle.css" rel="stylesheet">
 
 </head>
 
@@ -67,7 +68,59 @@
     </header>
 
     <article>
-        <p>THIS ONE ISN'T DONE. STOP LOOKING AT ME, SENPAI!!!</p>
+        <form
+        action="http://cs2350.richfry.com/"
+        method="POST">
+
+      <!-- Form data for contact page -->
+      <fieldset>
+        <legend>CONTACT CHRIS</legend>
+        <div class="formContainer">
+            <div>
+                <label for="userNameText">Name:</label>
+                <input name="userName" id="userNameText" type="text"
+                    placeholder="Name Required" required>
+            </div>
+            <div>
+                <label for="userEmailEmail">Email:</label>
+                <input name="userEmail" id="userEmailEmail" type="email"
+                    placeholder="Email Required" required>
+            </div>
+            <div>
+                <p>Where did you hear about the site?</p>
+                <input name="referralType" id="refferalTypeWSU" type="radio">
+                <label for="refferalTypeWSU" class="referralLabel">WSU</label>
+                <input name="referralType" id="referralTypeTwitch" type="radio">
+                <label for="referralTypeTwitch" class="referralLabel">Twitch</label>
+                <input name="referralType" id="referralTypeSpotify" type="radio">
+                <label for="referralTypeSpotify" class="referralLabel">Fluent in Bird</label>
+                <input name="referralType" id="referralTypeOther" type="radio">
+                <label for="referralTypeOther" class="referralLabel">Other</label>
+            </div>
+            <div>
+                <p>Are you a bird, or the representative of a bird, interested
+                    in appearing on the <em>Fluent in Bird podcast?</em></p>
+                <input name="userIsBird" id="birdYes" type="radio">
+                <label for="birdYes" class="referralLabel">Yes</label>
+                <input name="userIsBird" id="birdNo" type="radio">
+                <label for="birdNo" class="referralLabel">No</label>
+            </div>
+        </div>
+        <div class="formContainer">
+            <div id="bioPrompt">
+               <p>What is your message?</p>
+            <div>
+                <textarea name="userMessage" id="userMessageText"
+                placeholder="Can not send blank message." required></textarea>
+            </div>
+        </div>
+        </div>
+      </fieldset>
+      <div id="buttons">
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+     </div>
+      </form>
     </article>
 
     <!-- Footer repeates top nav menu and provides brief copyright. -->

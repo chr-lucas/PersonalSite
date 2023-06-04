@@ -78,7 +78,7 @@ h5 {
 
 /* Image Styles */
 
-img {
+div.schoolColumn img {
     width: 80%;
     object-fit: contain;
     border: black solid 2px;

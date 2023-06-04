@@ -46,6 +46,12 @@ div#podcastContainer {
     width: 30%;
 }
 
+table {
+    background-color: #302E30;
+    margin: 1em auto 1em auto;
+    width: 60%;
+}
+
 /* Text Styles */
 
 div#gameSection p {
@@ -67,6 +73,7 @@ div#podcastText p {
     text-align: left;
 }
 
+
 /* Image Styles */
 
 img#gameReviews {
@@ -79,14 +86,82 @@ div#podcastContainer img {
     width: 80%;
 }
 
+/* Table Styles */
+
+table, th, td {
+    border: black 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #38b077;
+    text-shadow: #302E30 1px 1px;
+    padding: .4em .2em;
+    font-family: Oswald, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+td {
+    font-family: Tinos, Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding: .3em .2em;
+}
+
+td.number {
+    font-size: medium;
+    text-align: right;
+    font-weight: bold;
+    text-shadow: #302E30 1px 1px;
+}
+
+td.link {
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
+
+caption {
+    text-align: left;
+}
+
+col.number {
+    width: 7%;
+    background-color: #38b077;
+}
+
+col.link {
+    width: 20%;
+    background-color: #656365;
+}
+
 /* Link Styles */
 
 div#podcastContainer img:hover {
     box-shadow:
-    #E0DDCF 6px 6px 5px,
-    #E0DDCF -6px -6px 5px,
-    #E0DDCF 6px -6px 5px,
-    #E0DDCF -6px 6px 5px;
+    #E0DDCF 6px 6px 3px,
+    #E0DDCF -6px -6px 3px,
+    #E0DDCF 6px -6px 3px,
+    #E0DDCF -6px 6px 3px;
+}
+
+td.link a {
+    text-decoration: none;
+}
+
+td.link a:link {
+    color: beige;
+}
+
+td.link a:visited {
+    color: #e0cd21;
+}
+
+td.link a:hover {
+    color: #6f73f8;
+}
+
+td.link a:active {
+    color: #e0cd21;
 }
 
 /* Divider Styles */

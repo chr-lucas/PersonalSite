@@ -47,32 +47,37 @@ div.schoolColumn {
 /* Text Styles */
 
 div#introText {
-    font-family: Tinos, Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
-    line-height: 110%;
-}
-
-h2, h5 {
+    width: 85%;
+    text-align: center;
     font-family: Oswald, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    font-weight: 100;
+    line-height: 110%;
+    margin: 1em auto 1em auto;
 }
 
-h2, h5 {
+h2, h5, h6 {
+    font-family: Oswald, Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
+    line-height: 105%;
     margin-left: 10%;
 }
 
 h2 {
     font-size: x-large;
     text-decoration: underline;
-    line-height: 105%;
 }
 
 h5 {
     font-size: larger;
-    line-height: 105%;
     padding-top: .1em;
 }
 
+h6 {
+    font-size: medium;
+    padding-top: .1em;
+    font-variant: small-caps;
+}
 
 
 

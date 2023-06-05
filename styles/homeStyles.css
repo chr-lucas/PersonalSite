@@ -9,8 +9,8 @@
 
 /*Serif font for body text*/
 @font-face {
-    font-family: Bitter;
-    src: url(../fonts/Bitter-VariableFont_wght.ttf)
+    font-family: Tinos;
+    src: url(../fonts/Tinos-Regular.ttf)
     format('truetype');
  }
 
@@ -51,7 +51,8 @@ div.aboutText {
     float: left;
     width: 70%;
     text-align: left;
-    font-family: Bitter, Georgia, 'Times New Roman', Times, serif;
+    font-family: Tinos, Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
     line-height: normal;
 }
 
